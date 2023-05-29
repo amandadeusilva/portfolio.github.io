@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: -20rem;
+}
+header .header_left h1{
+    font-size: 40px;
+}
+header .header_left{
+    max-width: 62rem;
+    flex: 1;
+}
+header .header_left p{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+header .botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 35rem;
+    position: absolute;
+    padding: 0.5rem;
+}
+header .botoes .bt_linkedin, header .botoes .bt_github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    border: 1px solid #dfdddd;
+    box-shadow: 2px 2px #b9b8b8;
+    cursor: pointer;
+    padding: 5px;
+}
+header .botoes .bt_linkedin:hover, header .botoes .bt_github:hover{
+    background-color: var(--hover-linkedin-github);
+}
+header .botoes .bt_github img, header .botoes .bt_linkedin img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+header .header-right{
+    display: flex;
+    align-items: center;
+    width: 310px;
+    margin-right: 6rem;
+}
+header .header-right img{
+    width: 300px;
+    height: auto;
+}

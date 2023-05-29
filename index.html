@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>ASilva Portfólio</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/extends.css">
+     <link rel="stylesheet" href="css/globals.css">
+     <link rel="stylesheet" href="css/variables.css">
+     <link rel="stylesheet" href="css/componets/">
+     <link rel="stylesheet" href="css/componets/navbar.css">
+     <link rel="stylesheet" href="css/componets/header.css">
+     <link rel="stylesheet" href="css/componets/projects.css">
+     <link rel="stylesheet" href="css/componets/skills.css">
+     <link rel="stylesheet" href="css/componets/about.css">
+     <link rel="stylesheet" href="css/componets/footer.css">
+     
+     <!-- Fontes -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+       rel="stylesheet"
+     />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_content max-width mb-0">
+            <a href="/">
+                <h2>A.</h2>
+            </a>
+            <ul class="navbar_links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="max-width">
+        <div class="header_left">
+            <h1>Olá! Sou Amanda Silva Desenvolvedora Front-end</h1>
+            <p>Bem vindo ao meu portfólio! Nessa página você vai encontrar meus projetos pessoais e minhas informações de contato.
+            </p>
+            <div class="botoes">
+                <div class="bt_linkedin">
+                    <img src="images/logo_linkedin.png">
+                    <span>Linked in</span>
+                </div>
+                <div class="bt_github">
+                    <img src="images/logo_github.png">
+                    <span>Github</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <img src="images/fotoperfil.jpg">
+        </div>
+    </header>
+
+    <!--About-->
+    <section id="about" class="about max-width">
+        <div class="about_left">
+            <h2 class="secondary-title">Além do código: quem sou eu</h2>
+            <p>Que tal se conectar comigo nas redes sociais abaixo.</p>
+            <ul>
+                <li><a href="https://www.instagram.com/amandadeusilva/"><img src="images/logo_instagram.png"alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/amanda.d.deus/"><img src="images/logo_facebook.png" alt="Facebook"></a></li>
+            </ul>
+        </div>
+        <div class="about_right">
+            <h3 class="tertiary-title mb-m">
+            Desenvolvedora Front-end apaixonada por tecnologia e soluções criativas.
+            </h3>
+            <p>Sou formada em Sistemas de Informação. Atualmente estou estudando através do curso B7web, onde pretendo iniciar minha carreira como desenvolvedora Front-end. Antes eu trabalhei por cinco anos em casas lotéricas com atendimento ao público, pagamentos de contas recebimetos e vendas de jogos. Sou comprometida, observadora comunicativa e determinada, busca sempre entregar o melhor de si nas atividades propostas.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="skills_content max-width">
+            <h2 class="tertiar-title">Habilidades</h2>
+            <ul>
+                <li><img src="images/logo_html.png"></li>
+                <li><img src="images/logo_css.png"></li>
+                <li><img src="images/logo_javascript.png"></li>
+                <li><img src="images/logo_angular.png"></li>
+                <li><img src="images/logo_banco.png"></li>
+                <li><img src="images/logo_python.png"></li>
+            </ul>
+        </div>
+        </section>
+        <!--Projects-->
+        <section id="projects" class="projects max-width">
+            <h2>Projetos</h2>
+            <div class="container__projects">
+                <div class="pj">
+                    <h3>Cadastro de alunos</h3>
+                    <p>Um aplicativo para cadastrar nome, idade e notas dos alunos,
+                        onde os dados inseridos são armazenados com o auxílio do JsonServer.<br><br>
+                        Tecnologias usadas:</p>
+                            <div class="tecnologias_img">
+                                <img src="images/logo_small_angular.png">
+                                <img src="images/logo_small_json.png">
+                            </div>
+                        <img src="images/json.png" width="150px", height="auto"><br><br>
+                        <a href="https://github.com/amandadeusilva/cadastroalunos.github.io">Link</a>
+                </div>
+                <div class="pj">
+                    <h3>Clima Tempo</h3>
+                    <p>Um site para vizualizar o clima tempo de uma cidade,
+                        para isso foi utilizado uma Api Open Weather para puxar os dados.<br><br>
+                        Tecnologias usadas:</p>
+                        <div class="tecnologias_img">
+                            <img src="images/logo_small_java.png">
+                            <img src="images/logo_api.png" width="35px" height="auto" >
+                        </div>
+                        <img src="images/clima_tempo.png" width="145px" height="auto"><br><br>
+                        <a href="https://amandadeusilva.github.io/climatempogithub.io/">Link</a>
+                </div>
+                <div class="pj">
+                    <h3>Cadastro de telefone</h3>
+                    <p>Um aplicativo para cadastrar os números de telefone de contato,
+                        onde foi utilizada Python e o Sqlite3 para armazenar os dados dos contato.<br><br>
+                        Tecnologias usadas:</p>
+                        <div class="tecnologias_img">
+                            <img src="images/logo_small_python.png">
+                            <img src="images/logo_sqlite3.png" width="60px">
+                        </div>
+                        <img src="images/banco.png" width="140px"><br><br>
+                        <a href="https://github.com/amandadeusilva/cadastro_telefone.github.io">Link</a>
+                </div>
+                <div class="pj">
+                    <h3>Calculadora</h3>
+                    <p>Uma calculadora que faz as operações simples de somar,
+                        subtrair, multiplicação e divisão.<br><br>
+                        Tecnologias usadas:</p>
+                        <div class="tecnologias_img">
+                            <img src="images/logo_small_html.png">
+                            <img src="images/logo_small_css.png">
+                            <img src="images/logo_small_java.png">
+                        </div>
+                        <img src="images/calculadora.png" width="130px"><br><br>
+                        <a href="https://amandadeusilva.github.io/calculadora.github.io/">Link</a>
+                </div>
+                <div class="pj">
+                    <h3>Urna eletrônica</h3>
+                    <p>Simulação de uma urna eletrônica, onde ela consiste em
+                        receber os números de votação de cada candidato e o participante
+                        poderá confirmar seu voto, votar em branco, corrigir e votar nulo.<br><br>
+                        Tecnologias usadas:</p>
+                        <div class="tecnologias_img">
+                            <img src="images/logo_small_html.png">
+                            <img src="images/logo_small_css.png">
+                            <img src="images/logo_small_java.png">
+                        </div>
+                        <img src="images/urna_eletronica.png" width="140px"><br><br>
+                        <a href="https://amandadeusilva.github.io/urnaEletronica.github.io/">Link</a>
+                </div>
+                <div class="pj">
+                    <h3>Spotify</h3>
+                    <p>Esse site é um clone simples da página Spotify,
+                     onde foi utilizado responsividade e flex-box.<br><br>
+                    Tecnologias usadas:</p>
+                    <div class="tecnologias_img">
+                        <img src="images/logo_small_html.png">
+                        <img src="images/logo_small_css.png">
+                        <img src="images/logo_small_java.png">
+                    </div>
+                        <img src="images/spotify.png" width="148px"><br><br>
+                        <a href="https://amandadeusilva.github.io/spotify.github.io/">Link</a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footer__content max-width mb-0">
+                <h2 class="tertiary-title mb-s">Vamos conversar</h2>
+                <div class="footer__contact mb-m">
+                    <span class="mb-m">amandadeusilva@gmail.com</span>
+                    <span>(35)99828-4829</span>
+                </div>
+                <ul class="mb-l">
+                    <li><a href="#"><img src="images/logo_instagram.png"alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/logo_facebook.png" alt="Facebook"></a></li>
+                </ul>
+                <p class="footer__copyright">
+                    @2023 Amanda Silva. Todos os direttos reservados.
+                </p>
+            </div>
+        </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

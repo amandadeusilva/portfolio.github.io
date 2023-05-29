@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--white);
+}
+.navbar a h2{
+    color: var(--cor-h1);
+}
+.navbar .navbar_content{
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar_content .navbar_links li{
+    display: inline-block;
+}
+.navbar .navbar_content .navbar_links li:not(:last-of-type){
+    margin-right: 2rem;
+}
+
+.navbar .navbar_content .navbar_links a:hover{
+    color: var( --tertiary-color);
+}
+

@@ -1,0 +1,28 @@
+.projects{
+    scroll-margin-top: 15rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container__projects{
+    display: flex;
+    flex-direction: column;
+}
+.container__projects .pj{
+    
+}
+.container__projects .pj p{
+   padding: 10px;
+   margin-bottom: -20px;
+}
+.container__projects .pj h3{
+    margin-top: 20px;
+}
+.container__projects .pj a{
+    padding: 2px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border: 1px solid silver;
+    box-shadow: 1px 1 px rgb(170, 168, 168);
+    width: 80px;
+}
+
