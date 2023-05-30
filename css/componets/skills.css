@@ -1,5 +1,5 @@
-.skills{
-    scroll-margin-top: 15rem;
+#skills{
+    scroll-margin-top: 20rem;
 }
 .skills_content{
     background-color: var(--hover-linkedin-github);
@@ -7,13 +7,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 .skills_content ul{
     display: flex;
+    justify-content: space-between;
+}
+.skills_content ul img{
     padding: 5px;
 }
 .skills_content h2{
-    margin-bottom: 2rem;
-    padding-top: 5px;
+    padding: 5px;
     font-size: 3rem;
+    color: var(--color);
 }
+@media only screen and (max-width: 621px) {
+    .skills_content ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 

@@ -1,28 +1,94 @@
 .projects{
     scroll-margin-top: 15rem;
-    text-align: center;
     margin-bottom: 10px;
-}
-.container__projects{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#projects{
+    scroll-margin-top: 6rem;
+}
+.projects:first-child{
+    text-align: center;
+}
+.image_project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pj #a1{
+    margin-top: 5rem;
+}
+.pj #a3{
+    margin-top: 1rem;
+}
+.pj #a4{
+    margin-top: 0.5rem;
+}
+.pj #a5{
+    margin-top: -1rem;
+}
+.pj #a6{
+    margin-top: 6rem;
 }
 .container__projects .pj{
-    
+   width: 22.5rem;
+   height: 45rem;
+   border: 1px solid rgb(194, 192, 192);
+   box-shadow: 2px 2px 2px rgb(226, 225, 225);
+   margin-bottom: 2rem;
+}
+.container__projects .pj .tecnologias_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+ }
+.container__projects .pj:not(:last-child){
+    margin-right: 15px;
+ }
+.container__projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;   /*para imagem ficar uma do lado da outra*/
+    flex-flow: row wrap;
+}
+.projects h2{
+    padding: 20px;
+    font-size: 30px;
+    color: var(--color);
+}
+.a_project{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_project a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border: 1px solid #dfdddd;
+    box-shadow: 2px 2px #b9b8b8;
+    background-color: rgb(246, 247, 248);
+    cursor: pointer;
+    padding: 5px;
+    font-size: 12px;
+}
+.a_project a:hover{
+    background-color: var(--hover-linkedin-github);
 }
 .container__projects .pj p{
    padding: 10px;
-   margin-bottom: -20px;
+   font-size: 12px;
+   line-height: 13px;
+   text-align: justify;
 }
 .container__projects .pj h3{
     margin-top: 20px;
+    text-align: center;
 }
-.container__projects .pj a{
-    padding: 2px;
-    font-size: 15px;
-    background-color: antiquewhite;
-    border: 1px solid silver;
-    box-shadow: 1px 1 px rgb(170, 168, 168);
-    width: 80px;
-}
+
 

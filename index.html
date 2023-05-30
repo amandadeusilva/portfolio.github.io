@@ -28,18 +28,26 @@
      />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar_content max-width mb-0">
-            <a href="/">
-                <h2>A.</h2>
-            </a>
-            <ul class="navbar_links">
+    <nav class="navbar" id="navbar">
+        <div class="navbar__content max-width mb-0">
+            <h2>A.</h2>
+            <ul class="navbar__links">
                 <li><a href="#header">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#footer">Contato</a></li>
             </ul>
+            <div class="navbar__mobile">
+                <img src="images/logo_menu.png" class="burger">
+                <ul class="mobile__links">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -61,12 +69,13 @@
             </div>
         </div>
         <div class="header-right">
-            <img src="images/fotoperfil.jpg">
+            <img src="images/foto.jpeg">
         </div>
     </header>
 
     <!--About-->
-    <section id="about" class="about max-width">
+    <section id="about" class=" max-width">
+        <div class="about">
         <div class="about_left">
             <h2 class="secondary-title">Além do código: quem sou eu</h2>
             <p>Que tal se conectar comigo nas redes sociais abaixo.</p>
@@ -80,6 +89,7 @@
             Desenvolvedora Front-end apaixonada por tecnologia e soluções criativas.
             </h3>
             <p>Sou formada em Sistemas de Informação. Atualmente estou estudando através do curso B7web, onde pretendo iniciar minha carreira como desenvolvedora Front-end. Antes eu trabalhei por cinco anos em casas lotéricas com atendimento ao público, pagamentos de contas recebimetos e vendas de jogos. Sou comprometida, observadora comunicativa e determinada, busca sempre entregar o melhor de si nas atividades propostas.</p>
+        </div>
         </div>
     </section>
     <section id="skills" class="skills">
@@ -108,8 +118,12 @@
                                 <img src="images/logo_small_angular.png">
                                 <img src="images/logo_small_json.png">
                             </div>
-                        <img src="images/json.png" width="150px", height="auto"><br><br>
-                        <a href="https://github.com/amandadeusilva/cadastroalunos.github.io">Link</a>
+                            <div class="image_project">
+                                <img src="images/json.png" width="150px" height="auto"><br><br>
+                            </div>
+                        <div class="a_project">
+                            <a id="a1" href="https://github.com/amandadeusilva/cadastroalunos.github.io">Link</a>
+                        </div>
                 </div>
                 <div class="pj">
                     <h3>Clima Tempo</h3>
@@ -120,8 +134,12 @@
                             <img src="images/logo_small_java.png">
                             <img src="images/logo_api.png" width="35px" height="auto" >
                         </div>
-                        <img src="images/clima_tempo.png" width="145px" height="auto"><br><br>
-                        <a href="https://amandadeusilva.github.io/climatempogithub.io/">Link</a>
+                        <div class="image_project">
+                            <img src="images/clima_tempo.png" width="140px" height="140px"><br><br>
+                        </div>
+                        <div class="a_project">
+                            <a id="a2" href="https://amandadeusilva.github.io/climatempogithub.io/">Link</a>
+                        </div>
                 </div>
                 <div class="pj">
                     <h3>Cadastro de telefone</h3>
@@ -132,8 +150,12 @@
                             <img src="images/logo_small_python.png">
                             <img src="images/logo_sqlite3.png" width="60px">
                         </div>
-                        <img src="images/banco.png" width="140px"><br><br>
-                        <a href="https://github.com/amandadeusilva/cadastro_telefone.github.io">Link</a>
+                        <div class="image_project">
+                            <img src="images/banco.png" width="140px"><br><br>
+                        </div>
+                        <div class="a_project">
+                            <a id="a3" href="https://github.com/amandadeusilva/cadastro_telefone.github.io">Link</a>
+                        </div>
                 </div>
                 <div class="pj">
                     <h3>Calculadora</h3>
@@ -145,8 +167,12 @@
                             <img src="images/logo_small_css.png">
                             <img src="images/logo_small_java.png">
                         </div>
-                        <img src="images/calculadora.png" width="130px"><br><br>
-                        <a href="https://amandadeusilva.github.io/calculadora.github.io/">Link</a>
+                        <div class="image_project">
+                            <img src="images/calculadora.png" width="125px" height="150px"><br><br>
+                        </div>
+                        <div class="a_project">
+                            <a id="a4"href="https://amandadeusilva.github.io/calculadora.github.io/">Link</a>
+                        </div>
                 </div>
                 <div class="pj">
                     <h3>Urna eletrônica</h3>
@@ -159,8 +185,12 @@
                             <img src="images/logo_small_css.png">
                             <img src="images/logo_small_java.png">
                         </div>
-                        <img src="images/urna_eletronica.png" width="140px"><br><br>
-                        <a href="https://amandadeusilva.github.io/urnaEletronica.github.io/">Link</a>
+                        <div class="image_project">
+                            <img src="images/urna_eletronica.png" width="140px"><br>
+                        </div>
+                        <div class="a_project">
+                            <a id="a5" href="https://amandadeusilva.github.io/urnaEletronica.github.io/">Link</a>
+                        </div>
                 </div>
                 <div class="pj">
                     <h3>Spotify</h3>
@@ -172,8 +202,12 @@
                         <img src="images/logo_small_css.png">
                         <img src="images/logo_small_java.png">
                     </div>
-                        <img src="images/spotify.png" width="148px"><br><br>
-                        <a href="https://amandadeusilva.github.io/spotify.github.io/">Link</a>
+                    <div class="image_project">
+                        <img src="images/spotify.png" width="148px" height="auto">
+                    </div>
+                    <div class="a_project">
+                        <a id="a6" href="https://amandadeusilva.github.io/spotify.github.io/">Link</a>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -186,11 +220,11 @@
                     <span>(35)99828-4829</span>
                 </div>
                 <ul class="mb-l">
-                    <li><a href="#"><img src="images/logo_instagram.png"alt="Instagram"></a></li>
-                    <li><a href="#"><img src="images/logo_facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/amandadeusilva/"><img src="images/logo_instagram.png"alt="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/amanda.d.deus/"><img src="images/logo_facebook.png" alt="Facebook"></a></li>
                 </ul>
                 <p class="footer__copyright">
-                    @2023 Amanda Silva. Todos os direttos reservados.
+                    @2023 Amanda Silva. Todos os direitos reservados.
                 </p>
             </div>
         </footer>

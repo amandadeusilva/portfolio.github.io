@@ -2,7 +2,9 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 4rem;
-    scroll-margin-top: -20rem;
+}
+#header{
+    scroll-margin-top: 20rem;
 }
 header .header_left h1{
     font-size: 40px;
@@ -43,10 +45,34 @@ header .botoes .bt_github img, header .botoes .bt_linkedin img{
 header .header-right{
     display: flex;
     align-items: center;
-    width: 310px;
+    justify-content: center;
+    width: 25rem;
     margin-right: 6rem;
 }
 header .header-right img{
-    width: 300px;
-    height: auto;
+    width: 24rem;
+    height: 30rem;
 }
+@media only screen and (max-width: 621px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    header .header__left p {
+      margin: 2rem auto 4rem;
+    }
+    .header_left{
+        padding-right: 15px;
+    }
+    .header-right{
+        margin-top: 22px;
+    }
+    header .header_left h1{
+        font-size: 30px;
+    }
+    header .header_left p{
+        text-align: justify;
+    }
+  }
