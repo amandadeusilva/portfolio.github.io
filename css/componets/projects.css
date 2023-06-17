@@ -18,19 +18,25 @@
     justify-content: center;
 }
 .pj #a1{
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
-.pj #a3{
+.pj #a2{
     margin-top: 1rem;
 }
-.pj #a4{
+.pj #a3{
     margin-top: 0.5rem;
 }
+.pj #a4{
+    margin-top: 2rem;
+}
 .pj #a5{
-    margin-top: -1rem;
+    margin-top: 1rem;
 }
 .pj #a6{
-    margin-top: 6rem;
+    margin-top: 1rem;
+}
+.pj #a7{
+    margin-top: 7rem;
 }
 .container__projects .pj{
    width: 22.5rem;
